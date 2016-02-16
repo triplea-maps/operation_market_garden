@@ -1,0 +1,1275 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Operation Market Garden" version="0.8.4"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <triplea minimumVersion="1.7"/>
+  <map>
+    <!-- Territory Definitions -->
+    <territory name="101st Reinforcements"/>
+    <territory name="Best"/>
+    <territory name="Grave"/>
+    <territory name="B5"/>
+    <territory name="B4"/>
+    <territory name="B3"/>
+    <territory name="B2"/>
+    <territory name="B6"/>
+    <territory name="N43"/>
+    <territory name="B1"/>
+    <territory name="N39"/>
+    <territory name="C4"/>
+    <territory name="C3"/>
+    <territory name="C5"/>
+    <territory name="Groesbeek"/>
+    <territory name="C1"/>
+    <territory name="C2"/>
+    <territory name="82nd Reinforcements"/>
+    <territory name="Veghel"/>
+    <territory name="N22"/>
+    <territory name="Uden"/>
+    <territory name="N10"/>
+    <territory name="N11"/>
+    <territory name="N12"/>
+    <territory name="Valkenswaard"/>
+    <territory name="Wageningen"/>
+    <territory name="N14"/>
+    <territory name="N13"/>
+    <territory name="N16"/>
+    <territory name="N15"/>
+    <territory name="N18"/>
+    <territory name="N17"/>
+    <territory name="N19"/>
+    <territory name="N7"/>
+    <territory name="N6"/>
+    <territory name="N9"/>
+    <territory name="N8"/>
+    <territory name="N1"/>
+    <territory name="N3"/>
+    <territory name="N2"/>
+    <territory name="N5"/>
+    <territory name="N4"/>
+    <territory name="Bennekom"/>
+    <territory name="N71"/>
+    <territory name="N70"/>
+    <territory name="Eindhoven"/>
+    <territory name="N64"/>
+    <territory name="Ede"/>
+    <territory name="N65"/>
+    <territory name="N67"/>
+    <territory name="N60"/>
+    <territory name="N61"/>
+    <territory name="N62"/>
+    <territory name="N63"/>
+    <territory name="Nijmegen"/>
+    <territory name="N59"/>
+    <territory name="N57"/>
+    <territory name="N58"/>
+    <territory name="N52"/>
+    <territory name="N51"/>
+    <territory name="N50"/>
+    <territory name="N56"/>
+    <territory name="Hertogenbosch"/>
+    <territory name="N54"/>
+    <territory name="Roermond"/>
+    <territory name="N53"/>
+    <territory name="N46"/>
+    <territory name="N47"/>
+    <territory name="N48"/>
+    <territory name="N49"/>
+    <territory name="Arnhem"/>
+    <territory name="Helmond"/>
+    <territory name="N41"/>
+    <territory name="N40"/>
+    <territory name="N42"/>
+    <territory name="N45"/>
+    <territory name="N44"/>
+    <territory name="N37"/>
+    <territory name="N38"/>
+    <territory name="N35"/>
+    <territory name="N36"/>
+    <territory name="N34"/>
+    <territory name="N33"/>
+    <territory name="N32"/>
+    <territory name="N31"/>
+    <territory name="N30"/>
+    <territory name="N28"/>
+    <territory name="N29"/>
+    <territory name="N24"/>
+    <territory name="N25"/>
+    <territory name="Schijndel"/>
+    <territory name="N26"/>
+    <territory name="N27"/>
+    <territory name="Apeldoorn"/>
+    <territory name="Gemert"/>
+    <territory name="N21"/>
+    <territory name="N20"/>
+    <territory name="N23"/>
+    <territory name="Oosterbeek"/>
+    <territory name="N69"/>
+    <territory name="N68"/>
+    <territory name="N66"/>
+    <territory name="A2"/>
+    <territory name="A1"/>
+    <territory name="A4"/>
+    <territory name="A3"/>
+    <territory name="A6"/>
+    <territory name="A7"/>
+    <territory name="N55"/>
+    <territory name="H.Q."/>
+    <territory name="1st Reinforcements"/>
+    <territory name="A5"/>
+    <!-- Territory Connections -->
+    <connection t1="101st Reinforcements" t2="C3"/>
+    <connection t1="101st Reinforcements" t2="C4"/>
+    <connection t1="101st Reinforcements" t2="C5"/>
+    <connection t1="Best" t2="Schijndel"/>
+    <connection t1="B5" t2="N39"/>
+    <connection t1="B4" t2="N43"/>
+    <connection t1="B3" t2="Grave"/>
+    <connection t1="B2" t2="82nd Reinforcements"/>
+    <connection t1="B6" t2="Groesbeek"/>
+    <connection t1="N43" t2="N44"/>
+    <connection t1="N43" t2="N45"/>
+    <connection t1="N43" t2="Grave"/>
+    <connection t1="B1" t2="B2"/>
+    <connection t1="N39" t2="N40"/>
+    <connection t1="N39" t2="N41"/>
+    <connection t1="N39" t2="Groesbeek"/>
+    <connection t1="C4" t2="N22"/>
+    <connection t1="C3" t2="Veghel"/>
+    <connection t1="C5" t2="Best"/>
+    <connection t1="Groesbeek" t2="N38"/>
+    <connection t1="C1" t2="C2"/>
+    <connection t1="C2" t2="101st Reinforcements"/>
+    <connection t1="82nd Reinforcements" t2="B3"/>
+    <connection t1="82nd Reinforcements" t2="B4"/>
+    <connection t1="82nd Reinforcements" t2="B5"/>
+    <connection t1="82nd Reinforcements" t2="B6"/>
+    <connection t1="Veghel" t2="Uden"/>
+    <connection t1="Veghel" t2="N31"/>
+    <connection t1="N22" t2="N23"/>
+    <connection t1="N22" t2="Best"/>
+    <connection t1="N22" t2="Veghel"/>
+    <connection t1="N22" t2="Schijndel"/>
+    <connection t1="N10" t2="N11"/>
+    <connection t1="N10" t2="N12"/>
+    <connection t1="N10" t2="Valkenswaard"/>
+    <connection t1="N11" t2="N12"/>
+    <connection t1="N12" t2="Valkenswaard"/>
+    <connection t1="Valkenswaard" t2="N2"/>
+    <connection t1="N14" t2="Gemert"/>
+    <connection t1="N14" t2="N35"/>
+    <connection t1="N13" t2="N14"/>
+    <connection t1="N13" t2="Gemert"/>
+    <connection t1="N16" t2="Best"/>
+    <connection t1="N15" t2="N16"/>
+    <connection t1="N18" t2="Helmond"/>
+    <connection t1="N17" t2="N18"/>
+    <connection t1="N17" t2="Helmond"/>
+    <connection t1="N19" t2="Gemert"/>
+    <connection t1="N7" t2="N14"/>
+    <connection t1="N6" t2="N7"/>
+    <connection t1="N6" t2="N13"/>
+    <connection t1="N6" t2="N14"/>
+    <connection t1="N9" t2="N16"/>
+    <connection t1="N8" t2="N9"/>
+    <connection t1="N8" t2="N15"/>
+    <connection t1="N8" t2="N16"/>
+    <connection t1="N1" t2="Valkenswaard"/>
+    <connection t1="N1" t2="N2"/>
+    <connection t1="N3" t2="Roermond"/>
+    <connection t1="N3" t2="N6"/>
+    <connection t1="N3" t2="N7"/>
+    <connection t1="N2" t2="N3"/>
+    <connection t1="N5" t2="N8"/>
+    <connection t1="N5" t2="N9"/>
+    <connection t1="N4" t2="N5"/>
+    <connection t1="N4" t2="N8"/>
+    <connection t1="Bennekom" t2="Ede"/>
+    <connection t1="Bennekom" t2="Wageningen"/>
+    <connection t1="N71" t2="Bennekom"/>
+    <connection t1="N71" t2="Ede"/>
+    <connection t1="N70" t2="Bennekom"/>
+    <connection t1="N70" t2="N71"/>
+    <connection t1="Eindhoven" t2="N16"/>
+    <connection t1="Eindhoven" t2="N17"/>
+    <connection t1="Eindhoven" t2="N18"/>
+    <connection t1="Eindhoven" t2="N9"/>
+    <connection t1="Eindhoven" t2="N10"/>
+    <connection t1="N64" t2="N65"/>
+    <connection t1="N64" t2="N66"/>
+    <connection t1="N64" t2="Apeldoorn"/>
+    <connection t1="N65" t2="Apeldoorn"/>
+    <connection t1="N65" t2="N67"/>
+    <connection t1="N67" t2="Ede"/>
+    <connection t1="N67" t2="N64"/>
+    <connection t1="N62" t2="N63"/>
+    <connection t1="N62" t2="Apeldoorn"/>
+    <connection t1="N63" t2="N64"/>
+    <connection t1="N63" t2="N66"/>
+    <connection t1="N67" t2="N69"/>
+    <connection t1="N63" t2="Apeldoorn"/>
+    <connection t1="N63" t2="Oosterbeek"/>
+    <connection t1="Nijmegen" t2="N38"/>
+    <connection t1="Nijmegen" t2="N40"/>
+    <connection t1="Nijmegen" t2="N42"/>
+    <connection t1="Nijmegen" t2="N57"/>
+    <connection t1="N59" t2="N60"/>
+    <connection t1="N57" t2="N60"/>
+    <connection t1="N57" t2="N58"/>
+    <connection t1="N58" t2="N60"/>
+    <connection t1="N58" t2="N59"/>
+    <connection t1="N52" t2="N54"/>
+    <connection t1="N52" t2="N53"/>
+    <connection t1="N51" t2="N52"/>
+    <connection t1="N50" t2="N51"/>
+    <connection t1="N50" t2="N70"/>
+    <connection t1="N56" t2="N57"/>
+    <connection t1="N56" t2="N58"/>
+    <connection t1="Hertogenbosch" t2="Schijndel"/>
+    <connection t1="Hertogenbosch" t2="Veghel"/>
+    <connection t1="Hertogenbosch" t2="Uden"/>
+    <connection t1="N54" t2="N57"/>
+    <connection t1="N54" t2="N56"/>
+    <connection t1="N53" t2="N54"/>
+    <connection t1="N53" t2="N55"/>
+    <connection t1="N53" t2="N56"/>
+    <connection t1="N46" t2="N47"/>
+    <connection t1="N47" t2="N48"/>
+    <connection t1="N47" t2="N50"/>
+    <connection t1="N47" t2="Hertogenbosch"/>
+    <connection t1="N49" t2="N50"/>
+    <connection t1="N49" t2="N70"/>
+    <connection t1="Arnhem" t2="N59"/>
+    <connection t1="Arnhem" t2="N58"/>
+    <connection t1="Arnhem" t2="N61"/>
+    <connection t1="Arnhem" t2="N62"/>
+    <connection t1="Arnhem" t2="N63"/>
+    <connection t1="Arnhem" t2="Oosterbeek"/>
+    <connection t1="N41" t2="N42"/>
+    <connection t1="N40" t2="N38"/>
+    <connection t1="N40" t2="N41"/>
+    <connection t1="N40" t2="N42"/>
+    <connection t1="N40" t2="Groesbeek"/>
+    <connection t1="N42" t2="N43"/>
+    <connection t1="N45" t2="N46"/>
+    <connection t1="N44" t2="N45"/>
+    <connection t1="N44" t2="N46"/>
+    <connection t1="N37" t2="N38"/>
+    <connection t1="N37" t2="Groesbeek"/>
+    <connection t1="N35" t2="N36"/>
+    <connection t1="N35" t2="N39"/>
+    <connection t1="N36" t2="N37"/>
+    <connection t1="N36" t2="N39"/>
+    <connection t1="N36" t2="Groesbeek"/>
+    <connection t1="N34" t2="Grave"/>
+    <connection t1="N33" t2="N34"/>
+    <connection t1="N33" t2="N39"/>
+    <connection t1="N32" t2="N33"/>
+    <connection t1="N31" t2="N32"/>
+    <connection t1="N31" t2="Uden"/>
+    <connection t1="N30" t2="N31"/>
+    <connection t1="N30" t2="N32"/>
+    <connection t1="N30" t2="N33"/>
+    <connection t1="N30" t2="N34"/>
+    <connection t1="N30" t2="Grave"/>
+    <connection t1="N30" t2="Uden"/>
+    <connection t1="N29" t2="N28"/>
+    <connection t1="N29" t2="Grave"/>
+    <connection t1="N29" t2="N30"/>
+    <connection t1="N29" t2="Uden"/>
+    <connection t1="N24" t2="N19"/>
+    <connection t1="N24" t2="N31"/>
+    <connection t1="N24" t2="Veghel"/>
+    <connection t1="N25" t2="Gemert"/>
+    <connection t1="N25" t2="N19"/>
+    <connection t1="N25" t2="N24"/>
+    <connection t1="N25" t2="N31"/>
+    <connection t1="N25" t2="N32"/>
+    <connection t1="N26" t2="Best"/>
+    <connection t1="N26" t2="N47"/>
+    <connection t1="N26" t2="Schijndel"/>
+    <connection t1="N27" t2="N28"/>
+    <connection t1="N27" t2="N29"/>
+    <connection t1="N27" t2="Uden"/>
+    <connection t1="N27" t2="Hertogenbosch"/>
+    <connection t1="Gemert" t2="Helmond"/>
+    <connection t1="N21" t2="Best"/>
+    <connection t1="N21" t2="N26"/>
+    <connection t1="N20" t2="N14"/>
+    <connection t1="N20" t2="Gemert"/>
+    <connection t1="N20" t2="N25"/>
+    <connection t1="N20" t2="N32"/>
+    <connection t1="N69" t2="Bennekom"/>
+    <connection t1="N69" t2="Ede"/>
+    <connection t1="N68" t2="Bennekom"/>
+    <connection t1="N68" t2="Wageningen"/>
+    <connection t1="N68" t2="Oosterbeek"/>
+    <connection t1="N68" t2="N69"/>
+    <connection t1="N66" t2="N67"/>
+    <connection t1="N66" t2="N68"/>
+    <connection t1="N66" t2="Oosterbeek"/>
+    <connection t1="N66" t2="N69"/>
+    <connection t1="A2" t2="1st Reinforcements"/>
+    <connection t1="A1" t2="A2"/>
+    <connection t1="A4" t2="N66"/>
+    <connection t1="A3" t2="N69"/>
+    <connection t1="A6" t2="Oosterbeek"/>
+    <connection t1="A7" t2="N55"/>
+    <connection t1="N55" t2="Oosterbeek"/>
+    <connection t1="N55" t2="N58"/>
+    <connection t1="N55" t2="N56"/>
+    <connection t1="H.Q." t2="N1"/>
+    <connection t1="H.Q." t2="N4"/>
+    <connection t1="H.Q." t2="N5"/>
+    <connection t1="1st Reinforcements" t2="A4"/>
+    <connection t1="1st Reinforcements" t2="A3"/>
+    <connection t1="1st Reinforcements" t2="A7"/>
+    <connection t1="1st Reinforcements" t2="A6"/>
+    <connection t1="1st Reinforcements" t2="A5"/>
+    <connection t1="A5" t2="N68"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="Americans" optional="false"/>
+    <player name="British" optional="false"/>
+    <player name="AI_Germans" optional="false"/>
+    <alliance player="Americans" alliance="Allies"/>
+    <alliance player="British" alliance="Allies"/>
+    <alliance player="AI_Germans" alliance="Axis"/>
+  </playerList>
+  <unitList>
+    <unit name="Infantry"/>
+    <unit name="Airborne"/>
+    <unit name="Mechanized"/>
+    <unit name="Truck"/>
+    <unit name="Artillery"/>
+    <unit name="Tank"/>
+    <unit name="Airstrike"/>
+    <unit name="AirTransport"/>
+    <unit name="AirborneAT"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="germanBid" delegate="bid" player="AI_Germans" maxRunCount="1"/>
+      <step name="germanBidPlace" delegate="placeBid" player="AI_Germans" maxRunCount="1"/>
+      <step name="britishBid" delegate="bid" player="British" maxRunCount="1"/>
+      <step name="britishBidPlace" delegate="placeBid" player="British" maxRunCount="1"/>
+      <step name="americanBid" delegate="bid" player="Americans" maxRunCount="4"/>
+      <step name="americanBidPlace" delegate="placeBid" player="Americans" maxRunCount="4"/>
+      <step name="americansTech" delegate="tech" player="Americans"/>
+      <step name="americansTechActivation" delegate="tech_activation" player="Americans"/>
+      <step name="americanCombatMove" delegate="move" player="Americans"/>
+      <step name="americanBattle" delegate="battle" player="Americans"/>
+      <step name="americanNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>
+      <step name="americanPlace" delegate="place" player="Americans"/>
+      <step name="americanEndTurn" delegate="endTurn" player="Americans"/>
+      <step name="britishTech" delegate="tech" player="British"/>
+      <step name="britishTechActivation" delegate="tech_activation" player="British"/>
+      <step name="britishCombatMove" delegate="move" player="British"/>
+      <step name="britishBattle" delegate="battle" player="British"/>
+      <step name="britishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+      <step name="britishPlace" delegate="place" player="British"/>
+      <step name="britishEndTurn" delegate="endTurn" player="British"/>
+      <step name="germanTech" delegate="tech" player="AI_Germans"/>
+      <step name="germanTechActivation" delegate="tech_activation" player="AI_Germans"/>
+      <step name="germanCombatMove" delegate="move" player="AI_Germans"/>
+      <step name="germanBattle" delegate="battle" player="AI_Germans"/>
+      <step name="germanNonCombatMove" delegate="move" player="AI_Germans" display="Non Combat Move"/>
+      <step name="germanPlace" delegate="place" player="AI_Germans"/>
+      <step name="germanEndTurn" delegate="endTurn" player="AI_Germans"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyInfantry">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="Infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAirborne">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="Airborne" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyMechanized">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="Mechanized" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTruck">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="Truck" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtillery">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="Artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTank">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="Tank" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAirstrike">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="Airstrike" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAirTransport">
+      <cost resource="PUs" quantity="0"/>
+      <result resourceOrUnit="AirTransport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAirborneAT">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="AirborneAT" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="BritishFrontier">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyTank"/>
+      <frontierRules name="buyAirstrike"/>
+      <frontierRules name="buyMechanized"/>
+      <frontierRules name="buyAirborneAT"/>
+    </productionFrontier>
+    <productionFrontier name="AI_GermansFrontier">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyTank"/>
+      <frontierRules name="buyAirstrike"/>
+      <frontierRules name="buyMechanized"/>
+    </productionFrontier>
+    <productionFrontier name="AmericansFrontier">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyAirborne"/>
+      <frontierRules name="buyMechanized"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyTank"/>
+    </productionFrontier>
+    <playerProduction player="British" frontier="BritishFrontier"/>
+    <playerProduction player="AI_Germans" frontier="AI_GermansFrontier"/>
+    <playerProduction player="Americans" frontier="AmericansFrontier"/>
+  </production>
+  <attatchmentList>
+    <attatchment name="unitAttatchment" attatchTo="Infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="ArtillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Airborne" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="TransportCost" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Mechanized" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="TransportCost" value="1"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Truck" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="Artillery" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Tank" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="canBlitz" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="Airstrike" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="20"/>
+      <option name="isAir" value="true"/>
+      <option name="isSuicide" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="AirTransport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="canProduceUnits" value="true"/>
+      <option name="canProduceXUnits" value="10"/>
+      <option name="createsUnitsList" value="Airborne" count="2"/>
+      <option name="canBeDamaged" value="false"/>
+      <option name="movement" value="0"/>
+      <option name="isSuicide" value="true"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="AirborneAT" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="101st Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Best" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Grave" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B6" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N43" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="B1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N39" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Groesbeek" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="82nd Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Veghel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N22" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Uden" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N10" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N11" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N12" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Valkenswaard" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Wageningen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N14" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N13" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N16" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N15" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N18" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N17" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N19" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N7" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N6" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N9" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N8" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bennekom" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N71" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N70" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Eindhoven" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N64" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ede" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N65" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N67" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N60" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N61" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N62" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N63" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Nijmegen" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="capital" value="Americans"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N59" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N57" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N58" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N52" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N51" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N50" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N56" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Hertogenbosch" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N54" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Roermond" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N53" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N46" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N47" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N48" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N49" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Arnhem" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="capital" value="AI_Germans"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Helmond" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N41" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N40" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N42" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N45" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N44" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N37" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N38" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N35" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N36" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N34" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N33" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N32" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N31" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N30" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N28" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N29" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N24" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N25" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Schijndel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N26" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N27" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Apeldoorn" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gemert" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N21" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N20" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N23" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Oosterbeek" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N69" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N68" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N66" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A1" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A6" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A7" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N55" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="H.Q." javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="capital" value="British"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="1st Reinforcements" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="A5" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="conditionAttachmentAxisVictory" attatchTo="AI_Germans" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="turns" value="9"/>
+    </attatchment>
+    <attatchment name="conditionAttachmentAlliesVictory" attatchTo="British" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="N1:Valkenswaard:N10:Eindhoven:N16:Best:N22:Veghel:Uden:N29:Grave:N43:N42:Nijmegen:N57:N58:Arnhem:N63:Apeldoorn:H.Q." count="20"/>
+      <option name="directPresenceTerritories" value="Apeldoorn"/>
+      <option name="unitPresence" value="Truck" count="4"/>
+      <option name="turns" value="9"/>
+    </attatchment>
+    <attatchment name="triggerAttachmentAxisVictory_VictoryRoad" attatchTo="AI_Germans" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentAxisVictory"/>
+      <option name="uses" value="9"/>
+      <option name="when" value="after:germanBattle"/>
+      <option name="victory" value="AXIS_VICTORY"/>
+      <option name="players" value="AI_Germans"/>
+    </attatchment>
+    <attatchment name="triggerAttachmentAlliesVictory_VictoryRoad" attatchTo="British" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentAlliesVictory"/>
+      <option name="uses" value="9"/>
+      <option name="when" value="after:germanBattle"/>
+      <option name="victory" value="ALLIES_VICTORY"/>
+      <option name="players" value="Americans:British"/>
+    </attatchment>
+    <attatchment name="rulesAttatchment" attatchTo="AI_Germans" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="A3:A4:A5:A6:A7:B3:B4:B5:B6:C3:C4:C5"/>
+      <option name="movementRestrictionType" value="disallowed"/>
+    </attatchment>
+    <attatchment name="playerAttatchment" attatchTo="AI_Germans" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+      <option name="movementLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+      <option name="attackingLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+    </attatchment>
+    <attatchment name="playerAttatchment" attatchTo="Americans" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+      <option name="movementLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+      <option name="attackingLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+    </attatchment>
+    <attatchment name="playerAttatchment" attatchTo="British" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+      <option name="movementLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+      <option name="attackingLimit" value="owned:Infantry:Airborne:AirborneAT:Mechanized:Tank" count="8"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="101st Reinforcements" owner="Americans"/>
+      <territoryOwner territory="Best" owner="Americans"/>
+      <territoryOwner territory="Grave" owner="Americans"/>
+      <territoryOwner territory="B5" owner="Americans"/>
+      <territoryOwner territory="B4" owner="Americans"/>
+      <territoryOwner territory="B3" owner="Americans"/>
+      <territoryOwner territory="B2" owner="Americans"/>
+      <territoryOwner territory="B6" owner="Americans"/>
+      <territoryOwner territory="N43" owner="Americans"/>
+      <territoryOwner territory="B1" owner="Americans"/>
+      <territoryOwner territory="N39" owner="Americans"/>
+      <territoryOwner territory="C4" owner="Americans"/>
+      <territoryOwner territory="C3" owner="Americans"/>
+      <territoryOwner territory="C5" owner="Americans"/>
+      <territoryOwner territory="Groesbeek" owner="Americans"/>
+      <territoryOwner territory="C1" owner="Americans"/>
+      <territoryOwner territory="C2" owner="Americans"/>
+      <territoryOwner territory="82nd Reinforcements" owner="Americans"/>
+      <territoryOwner territory="Veghel" owner="Americans"/>
+      <territoryOwner territory="N22" owner="Americans"/>
+      <territoryOwner territory="Uden" owner="AI_Germans"/>
+      <territoryOwner territory="N10" owner="AI_Germans"/>
+      <territoryOwner territory="N11" owner="AI_Germans"/>
+      <territoryOwner territory="N12" owner="AI_Germans"/>
+      <territoryOwner territory="Valkenswaard" owner="AI_Germans"/>
+      <territoryOwner territory="Wageningen" owner="AI_Germans"/>
+      <territoryOwner territory="N14" owner="AI_Germans"/>
+      <territoryOwner territory="N13" owner="AI_Germans"/>
+      <territoryOwner territory="N16" owner="AI_Germans"/>
+      <territoryOwner territory="N15" owner="AI_Germans"/>
+      <territoryOwner territory="N18" owner="AI_Germans"/>
+      <territoryOwner territory="N17" owner="AI_Germans"/>
+      <territoryOwner territory="N19" owner="AI_Germans"/>
+      <territoryOwner territory="N7" owner="AI_Germans"/>
+      <territoryOwner territory="N6" owner="AI_Germans"/>
+      <territoryOwner territory="N9" owner="AI_Germans"/>
+      <territoryOwner territory="N8" owner="AI_Germans"/>
+      <territoryOwner territory="N1" owner="AI_Germans"/>
+      <territoryOwner territory="N3" owner="AI_Germans"/>
+      <territoryOwner territory="N2" owner="AI_Germans"/>
+      <territoryOwner territory="N5" owner="AI_Germans"/>
+      <territoryOwner territory="N4" owner="AI_Germans"/>
+      <territoryOwner territory="Bennekom" owner="AI_Germans"/>
+      <territoryOwner territory="N71" owner="AI_Germans"/>
+      <territoryOwner territory="N70" owner="AI_Germans"/>
+      <territoryOwner territory="Eindhoven" owner="AI_Germans"/>
+      <territoryOwner territory="N64" owner="AI_Germans"/>
+      <territoryOwner territory="Ede" owner="AI_Germans"/>
+      <territoryOwner territory="N65" owner="AI_Germans"/>
+      <territoryOwner territory="N67" owner="AI_Germans"/>
+      <territoryOwner territory="N60" owner="AI_Germans"/>
+      <territoryOwner territory="N61" owner="AI_Germans"/>
+      <territoryOwner territory="N62" owner="AI_Germans"/>
+      <territoryOwner territory="N63" owner="AI_Germans"/>
+      <territoryOwner territory="Nijmegen" owner="AI_Germans"/>
+      <territoryOwner territory="N59" owner="AI_Germans"/>
+      <territoryOwner territory="N57" owner="AI_Germans"/>
+      <territoryOwner territory="N58" owner="AI_Germans"/>
+      <territoryOwner territory="N52" owner="AI_Germans"/>
+      <territoryOwner territory="N51" owner="AI_Germans"/>
+      <territoryOwner territory="N50" owner="AI_Germans"/>
+      <territoryOwner territory="N56" owner="AI_Germans"/>
+      <territoryOwner territory="Hertogenbosch" owner="AI_Germans"/>
+      <territoryOwner territory="N54" owner="AI_Germans"/>
+      <territoryOwner territory="Roermond" owner="AI_Germans"/>
+      <territoryOwner territory="N53" owner="AI_Germans"/>
+      <territoryOwner territory="N46" owner="AI_Germans"/>
+      <territoryOwner territory="N47" owner="AI_Germans"/>
+      <territoryOwner territory="N48" owner="AI_Germans"/>
+      <territoryOwner territory="N49" owner="AI_Germans"/>
+      <territoryOwner territory="Arnhem" owner="AI_Germans"/>
+      <territoryOwner territory="Helmond" owner="AI_Germans"/>
+      <territoryOwner territory="N41" owner="AI_Germans"/>
+      <territoryOwner territory="N40" owner="AI_Germans"/>
+      <territoryOwner territory="N42" owner="AI_Germans"/>
+      <territoryOwner territory="N45" owner="AI_Germans"/>
+      <territoryOwner territory="N44" owner="AI_Germans"/>
+      <territoryOwner territory="N37" owner="AI_Germans"/>
+      <territoryOwner territory="N38" owner="AI_Germans"/>
+      <territoryOwner territory="N35" owner="AI_Germans"/>
+      <territoryOwner territory="N36" owner="AI_Germans"/>
+      <territoryOwner territory="N34" owner="AI_Germans"/>
+      <territoryOwner territory="N33" owner="AI_Germans"/>
+      <territoryOwner territory="N32" owner="AI_Germans"/>
+      <territoryOwner territory="N31" owner="AI_Germans"/>
+      <territoryOwner territory="N30" owner="AI_Germans"/>
+      <territoryOwner territory="N28" owner="AI_Germans"/>
+      <territoryOwner territory="N29" owner="AI_Germans"/>
+      <territoryOwner territory="N24" owner="AI_Germans"/>
+      <territoryOwner territory="N25" owner="AI_Germans"/>
+      <territoryOwner territory="Schijndel" owner="AI_Germans"/>
+      <territoryOwner territory="N26" owner="AI_Germans"/>
+      <territoryOwner territory="N27" owner="AI_Germans"/>
+      <territoryOwner territory="Apeldoorn" owner="AI_Germans"/>
+      <territoryOwner territory="Gemert" owner="AI_Germans"/>
+      <territoryOwner territory="N21" owner="AI_Germans"/>
+      <territoryOwner territory="N20" owner="AI_Germans"/>
+      <territoryOwner territory="N23" owner="AI_Germans"/>
+      <territoryOwner territory="Oosterbeek" owner="British"/>
+      <territoryOwner territory="N69" owner="British"/>
+      <territoryOwner territory="N68" owner="British"/>
+      <territoryOwner territory="N66" owner="British"/>
+      <territoryOwner territory="A2" owner="British"/>
+      <territoryOwner territory="A1" owner="British"/>
+      <territoryOwner territory="A4" owner="British"/>
+      <territoryOwner territory="A3" owner="British"/>
+      <territoryOwner territory="A5" owner="British"/>
+      <territoryOwner territory="A6" owner="British"/>
+      <territoryOwner territory="A7" owner="British"/>
+      <territoryOwner territory="N55" owner="British"/>
+      <territoryOwner territory="H.Q." owner="British"/>
+      <territoryOwner territory="1st Reinforcements" owner="British"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="Airborne" territory="101st Reinforcements" quantity="5" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="Best" quantity="6" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="Grave" quantity="3" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="N43" quantity="3" owner="Americans"/>
+      <unitPlacement unitType="Mechanized" territory="B1" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="N39" quantity="3" owner="Americans"/>
+      <unitPlacement unitType="Mechanized" territory="N39" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="Groesbeek" quantity="4" owner="Americans"/>
+      <unitPlacement unitType="Mechanized" territory="C1" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="82nd Reinforcements" quantity="5" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="Veghel" quantity="3" owner="Americans"/>
+      <unitPlacement unitType="Airborne" territory="N22" quantity="4" owner="Americans"/>
+      <unitPlacement unitType="Infantry" territory="Uden" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Uden" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Valkenswaard" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Wageningen" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N16" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N15" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N7" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N7" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N6" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N6" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N1" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N1" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="N3" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N2" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N2" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N5" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N5" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N4" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N4" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Bennekom" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="N71" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="N71" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="N71" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airstrike" territory="N71" quantity="6" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Eindhoven" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="Eindhoven" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Ede" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N65" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N60" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N61" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="N61" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="N61" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N63" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Nijmegen" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Nijmegen" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N57" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N58" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Hertogenbosch" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="Hertogenbosch" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Hertogenbosch" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="Roermond" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="Roermond" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Roermond" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="Roermond" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="N48" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="N48" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N49" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="N49" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="N49" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N49" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="N49" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Arnhem" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="Arnhem" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="Helmond" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N40" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N42" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N37" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N37" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N35" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N35" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N36" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N31" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N29" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Schijndel" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N26" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="N26" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N26" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="Apeldoorn" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="Apeldoorn" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Tank" territory="Apeldoorn" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Infantry" territory="N21" quantity="2" owner="AI_Germans"/>
+      <unitPlacement unitType="Mechanized" territory="N21" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Artillery" territory="N23" quantity="1" owner="AI_Germans"/>
+      <unitPlacement unitType="Airborne" territory="Oosterbeek" quantity="4" owner="British"/>
+      <unitPlacement unitType="Airborne" territory="N69" quantity="3" owner="British"/>
+      <unitPlacement unitType="Airborne" territory="N68" quantity="3" owner="British"/>
+      <unitPlacement unitType="Mechanized" territory="N68" quantity="1" owner="British"/>
+      <unitPlacement unitType="Airborne" territory="N66" quantity="4" owner="British"/>
+      <unitPlacement unitType="Mechanized" territory="A1" quantity="2" owner="British"/>
+      <unitPlacement unitType="Airborne" territory="N55" quantity="2" owner="British"/>
+      <unitPlacement unitType="Infantry" territory="H.Q." quantity="10" owner="British"/>
+      <unitPlacement unitType="Mechanized" territory="H.Q." quantity="4" owner="British"/>
+      <unitPlacement unitType="Truck" territory="H.Q." quantity="4" owner="British"/>
+      <unitPlacement unitType="Artillery" territory="H.Q." quantity="6" owner="British"/>
+      <unitPlacement unitType="Tank" territory="H.Q." quantity="8" owner="British"/>
+      <unitPlacement unitType="Airstrike" territory="H.Q." quantity="6" owner="British"/>
+      <unitPlacement unitType="Airborne" territory="1st Reinforcements" quantity="4" owner="British"/>
+      <unitPlacement unitType="AirborneAT" territory="1st Reinforcements" quantity="2" owner="British"/>
+      <!-- example of how to have a unit start in player's inventory, allowing the player to place the unit during any placement phase (normal or bid placement)
+			<heldUnits unitType="AirborneAT" player="British" quantity="2"/>-->
+      <!--<heldUnits unitType="Airborne" player="British" quantity="4"/>-->
+      <!--<heldUnits unitType="Mechanized" player="British" quantity="1"/>-->
+      <!--<heldUnits unitType="Mechanized" player="Americans" quantity="1"/>-->
+      <!--<heldUnits unitType="Airborne" player="British" quantity="10"/>-->
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Americans" resource="PUs" quantity="0"/>
+      <resourceGiven player="AI_Germans" resource="PUs" quantity="0"/>
+      <resourceGiven player="British" resource="PUs" quantity="0"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="AI_Germans bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Americans bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="British bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Triggered Victory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Use Triggers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Battle Rounds" value="1" editable="false">
+      <number min="-1" max="100"/>
+    </property>
+    <property name="mapName" value="operation_market_garden" editable="false"/>
+    <property name="notes">
+      <value><![CDATA[<h2>Operation Market Garden</h2>Version 0.8.4
+			<br>A mod of Dagon81's Arnhem map by SuperNova
+			  <br>
+			  <br><b>--Historical Info--</b>
+				<br>
+				<br>The infamous attempt by the Allies to capture a stretch of roadway that crossed the Rhine River, thus giving the Allies a speedy way into Nazi Germany.
+				  <br>
+				<br>The operation's ultimate goal was to end the war in Europe by Christmas of 1944.
+				<br>
+				<br>However, it didn't quite work that way. The Allies under-estimated the German defenders. 
+				<br>
+				<br>The XXX Corps was bogged down by unexpected resistance along what was known as Highway 69 (nicknamed Hell's Highway).
+				<br>
+				<br>British Paratroopers ignored reports of the 2nd SS Panzer division being stationed around Arnhem. 
+				<br>
+				<br>The 82nd Airborne encountered severe German resistance in Nijmegen.
+				<br>
+				<br>The 101st Airborne were attacked by German Troops retreating from the XXX Corps advance. 
+				<br>
+				<br>The Germans recovered a map containing the entire Market Garden plan from a dead American 82nd Airborne Officer.
+				<br>
+				  <br><h2>This is a 9 round game</h2>
+				                         a round for each day
+				<br><h3>Designed for solo play against the AI</h3>
+				                         AI is the Germans by default
+							   <br>
+				  <br> <h2>- Victory Conditions - </h2>
+				<br>
+				<br>Germans win if they destroy any of the Trucks,
+				<br>OR prevent them from reaching Apeldoorn by Round 9,
+				<br>OR Control any part of the Victory Road by the end of Round 9.
+				<br>
+				<br>The Allies must reach Apldoorn with the 4 Trucks
+				<br>AND control the entire Victory Road by the end of Round 9.
+				<br>
+				  <br><h2> - Special Rules - </h2>
+				<br><b>Combat lasts Only One Round</b>
+				<br>
+				<br><b>No more than 8 land units from each country allowed per territory!</b>
+				<br>There <b>can</b> be 8 UK and US land units in one territory.  
+				<br>Note that the if a territory has more than 8 land units at the start of the game they can remain until you move them.
+		 		<br>
+				<br><b>Do not move the reinforcments until round 2</b>
+				<br>1st, 82nd, and 101st reinforcements arrive during combat movement on Round 2.  
+				<br>They can land only on the designated landing areas (82nd can only land in any territory with the 82nd Airborne insignia a Parachute insignia, etc.). 
+				<br><b>Currenty this is not supported in the game's code</b> but the rule is they cannot move further than the drop zones until 1 round after they land. .
+				<br>
+				  <br> <h2>- Unit Statistics -</h2>
+				<br>attack/defense/movement - unit
+				<br>
+				<br>1/2/2 - Infantry (can recieve support)
+				<br>2/2/2 - Paratroopers/German Elites
+				<br>2/3/2 - British Special Forces
+				<br>2/2/2 - Artillery (supports Infantry)
+				<br>2/2/4 - Jeeps/Mechanized Units (can blitz)
+				<br>3/3/4 - Tank (can blitz)
+				<br>0/0/4 - Truck
+				<br>4/0/20 - Airstrike (disposable unit)
+				<br>
+				<br>There are 4 Trucks in the game, all British.  The Trucks are required to win the game, so keep them safe.  
+				<br>They cannot blitz.  They can be attacked by German Airstrikes, so don't leave them alone if the Germans still have Airstrikes left.  
+			        <br>If they stay at the XXX HQ with a continued defence, the Germans will not attack them.  But they will have to move eventually.
+				<br>
+				<br>The Airstrike is essentially a Suicidal Munitions unit.  It makes one preemtive attack, and then it is removed from play. 
+				<br>It can attack with land units (in fact, it is recomended that you do this).
+				<br>
+				<br> <h2>- Tips -</h2>
+				<br>British - Protect your Trucks.  You need them to win!  Try to keep your Trucks together and behind the front.  It is best to move the Trucks during your non-combat move.  As for the 1st, capture the 2 bridges.  You can split the Germans in half by capturing Arnhem on your first turn, thus having 2 smaller groups to deal with instead of 1 big group.  Beware German reinforcements coming from the left.  As for the XXX, keep a close eye on the German units on your right flank.
+				<br>
+				<br>Americans - Try and clear a path for the XXX Tanks and Trucks to blitz past.  You can use your Jeeps to 'scout', by blitzing through multiple territories, allowing the Infantry to advance more quickly.  Watch both Flanks of the road.  Don't Die!
+				<br>
+				<br>If playing as the Germans - Conserve your units!  You don't get any reinforcements, so attack wisely.  Try to take the bridges and stall the XXX Corps as long as possible.  Remember that you can move 1 unit into the line of the XXX Tanks and it will prevent them from blitzing.  You have a large number of troops on the bottom right of the board, and your first instinct will be to move them into combat.  However, you can make things tough for the Allies by waiting a round or two before moving them.  Instead of the British blitzing all the way to Arnhem, they will be forced to leave some units behind in case you attack the Road
+				<br>
+				  <br><b>Changelog v 0.8.4</b> blumb
+				    <br>fixed placement error
+				  <br>
+				<br><b>Changelog v 0.8.3</b> blumb and ZjelcoP
+				<br>made extra territories that seem not to exist in game play to replace air tranport(ZjelcoP) 
+				<br>took away the tech system
+				<br>movement restriction works now (both of us)
+				<br>Airstrikes don't count for the max unit count limit
+				<br>removed the old victory citys(blumb)
+				<br>the newer conditions and notifications are still there
+				<br>changed capitols to H.Q., Nijmegen and Arnhem
+				<br>changed AirTransports to edit mode only
+				<br>they drop 2 Airborne per turn and are also factories that can produce 10
+				<br>NOT IMPLEMENTED put code in unit placement for airdrop production NOT IMPLEMENTED
+				<br> (it's in the "brackets that shall not be named" the ones with the !)
+				<br>map.properties changes
+				<br>unit art adjustments more needed
+				<br>fixed notes
+				<br>
+				    
+				<br><b>Changlog v 0.8.2</b> by blumb
+				<br>Created victory triggers and notifications
+				<br>Switched to "Battle Rounds 1" ie no more drop zone battle rules.
+				<br>Made connects for all of the divisions markers, not just the parachutes, this allows for the 8 units per territory rule code.
+				<br>Added Air Transports attempting a workaround for the Airborne's ability to move further that the drop zones.
+				<br>They still can:( and the transport system seems complicated as it is now...
+				<br>Made the Germans AI by default.
+				<br>Changed unit art and names (especialy in the notes).
+				<br>
+				<br><b>Changelog v 0.8.1</b> by blumb
+				<br>Updated to triplea 1.0.7.3
+				<br>Added code to limit units to 8 per territory.
+				<br>Added code to make Airstrikes suicide units.
+				<br>Removed unneccesary code (battleship/carrier rules, ect)
+				  ]]></value>
+    </property>
+  </propertyList>
+</game>
