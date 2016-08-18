@@ -858,13 +858,13 @@
       <option name="production" value="0"/>
     </attachment>
     <attachment name="conditionAttachmentAxisVictory" attachTo="AI_Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-      <option name="turns" value="9"/>
+      <option name="rounds" value="9"/>
     </attachment>
     <attachment name="conditionAttachmentAlliesVictory" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
       <option name="alliedOwnershipTerritories" value="N1:Valkenswaard:N10:Eindhoven:N16:Best:N22:Veghel:Uden:N29:Grave:N43:N42:Nijmegen:N57:N58:Arnhem:N63:Apeldoorn:H.Q." count="20"/>
       <option name="directPresenceTerritories" value="Apeldoorn"/>
       <option name="unitPresence" value="Truck" count="4"/>
-      <option name="turns" value="9"/>
+      <option name="rounds" value="9"/>
     </attachment>
     <attachment name="triggerAttachmentAxisVictory_VictoryRoad" attachTo="AI_Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
       <option name="trigger" value="conditionAttachmentAxisVictory"/>
