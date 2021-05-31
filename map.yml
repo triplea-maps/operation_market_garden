@@ -1,0 +1,3 @@
+map_name: operation_market_garden
+games:
+- {game_name: Operation Market Garden, file_name: Operation_Market_Garden.xml}
